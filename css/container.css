@@ -354,7 +354,7 @@ header {
 }
 
 header .header-icons-container {
-  background: #47cfac;
+  background: #3895c0;
   padding: 20px;
   display: -ms-grid;
   display: grid;
@@ -435,7 +435,8 @@ header .header-icons-container .icons a {
   -ms-grid-columns: 1fr 4fr 1fr;
       grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
-  background-image: url("../assets/Cover.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 22, 32, 0.75)), to(rgba(81, 91, 112, 0.75))), url("../assets/portada.webp");
+  background: linear-gradient(rgba(17, 22, 32, 0.75), rgba(81, 91, 112, 0.75)), url("../assets/portada.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -463,10 +464,11 @@ header .header-icons-container .icons a {
 .home-main section .home-main-button {
   width: 110px;
   height: 50px;
-  background: #47cfac;
+  background: #3895c0;
 }
 
 .home-main section .home-main-button a {
+  color: white;
   font-weight: 700px;
   font-size: 18px;
 }
@@ -700,7 +702,7 @@ footer {
   width: 100%;
   height: 80px;
   background-color: #22272d;
-  border-top: 35px solid #47cfac;
+  border-top: 35px solid #3895c0;
   text-align: center;
 }
 
